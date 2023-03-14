@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Camselection from "../Camsetting/Cameraselection";
 import Points from "./Points/Points";
 import Alerttype from "./AlertType/Alerttype";
+import axios from "axios";
 
 const Areaselection = () => {
   return (

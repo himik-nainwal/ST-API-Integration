@@ -223,18 +223,18 @@ def register():
         # lname = request.json.get('lname')
         email = request.json.get('email')
         mobileno = request.json.get('mobileno')
-        userid = request.json.get('userid')
+        # userid = request.json.get('userid')
         # industries = request.json.get('industries')
         company = request.json.get('company')
         password = request.json.get('password')
-        query = 'SELECT id, userid, email FROM addUser WHERE userid="{userid}" OR ' \
-                'email="{email}"'.format(userid=userid, email=email)
+        query = 'SELECT id, email FROM addUser WHERE userid="{userid}" OR ' \
+                'email="{email}"'.format( email=email)
         if get_distinct_sql_result(query):
             res_body = dict(status=False, message="Username or email already exists")
             return get_response(HTTPCODES.FORBIDDEN, res_body)
         query = f'INSERT INTO adduser (name, email, mobileno, userid, company, password) ' \
                 f'VALUES ("{name}", "{email}",' \
-                f' "{mobileno}", "{userid}","{company}", "{password}")'
+                f' "{mobileno}","{company}", "{password}")'
         executed = sql_execute_command(query)
         if not executed:
             res_body = dict(status=False, message="User not registered ! Internal server Error")
