@@ -1,0 +1,131 @@
+.name{
+    /* marginBottom:'19px',marginTop:'20px',fontSize:'15px' */
+   margin-bottom:19px;
+   margin-top: 20px;
+   font-size: 15px;
+   color: white;
+   background-color: black;
+}
+.te{
+    height:40px;
+    width:300px;
+}
+.r{
+    display:flex;
+    flex-direction:row
+}
+.ic{
+    margin-right:50px;
+    font-size:38px;
+    /* border-radius: 400px;
+    border-top-right-radius: 500px; */
+}
+.bu5{
+    background:white;
+    color:black;
+    height:49px;
+    margin-left:2%;
+    margin-top:0px;
+    width:17%;
+    margin-right:3% ;
+    border-radius:9px;
+    font-size:19px
+    /* ackground:'white',color:'black',height
+          :'49px',marginLeft:'2%',marginTop:'0px',width:'17%',
+          borderRadius:'9px',fontSize:'19px',marginRight:'3%' */
+}
+.p{
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center ;
+    font-size: 15px;
+    
+}
+.up{
+    color:white;
+    margin-top:2%;
+    display:flex;
+    justify-content:center;
+    align-items:center  
+}
+.up1{
+    color:white;
+    margin-top:3%;
+    display:flex;
+    justify-content:center;
+    align-items:center  
+}
+.up2{
+    color:white;
+    margin-top:4%;
+    display:flex;
+    justify-content:center;
+    align-items:center  
+}
+.on{
+    background:white;
+    color:black;
+    height:49px;
+    margin-top:0px;
+    width:12%;
+    border-radius:9px;
+}
+.on1{
+    background:white;
+    color:black;
+    height:49px;
+    margin-left:2%;
+    margin-top:0px;
+    width:18%;
+    border-radius:9px;
+    font-size:19px;
+    margin-right:3%
+}
+.ce{
+    margin-left:5%;
+    display:flex;
+    margin-top:6%;
+    justify-content:center;
+align-items:center
+}
+.img2{
+    height:33vh;
+    width:33vh
+}
+.img1{
+    display:flex;
+    margin-top:10vh;
+    justify-content:center;
+    align-items:center
+}
+.t1{
+    text-decoration:underline;
+ font-size:19px;
+ cursor:pointer;
+ text-decoration-style:solid
+}
+.bs{
+    color:white;
+    font-size:115px
+}
+.bu2{
+    background:white;
+    color:black;
+    height:49px;
+    margin-left:9%;
+    margin-top:3%;
+    width:50vh;
+   border-radius:9px;
+   font-size:19px
+}
+.bu1{
+    background:white;
+    color:black;
+    height:49px;
+    margin-left:24%;
+    margin-top:0px;
+    width:30%;
+    border-radius:9px;
+    font-size:19px;
+}

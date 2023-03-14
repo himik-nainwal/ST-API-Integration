@@ -1,0 +1,91 @@
+.nav_head{
+    background-color: rgb(0, 0, 0);
+    width: 13vw;
+    position: fixed; 
+    top: 0px;
+    height: 100%;
+    /* bottom: 2px; */
+  }
+  .ght{
+    color:white;
+    cursor:pointer;
+    margin-left:'';
+    font-size:24px
+  }
+.y{
+display:flex;
+flex-direction:row
+}
+  .full{
+    display:flex;
+    margin-left:74vh;
+    flex-direction:row;
+    width:15vh;
+    font-size:14px
+  }
+  .imgcontainer{
+    text-align: center;
+    /* margin: 24px 0 50px 0; */
+  }
+  .n1{
+    margin-top:3vh;
+    background:white;
+    color:black;
+    display:flex;
+    justify-content:center;
+    align-items:center
+  }
+  .s{
+    background:white;
+    width:15%;
+    color:black
+  }
+  img{
+    /* width: 33%; */
+  }
+  .nav_list {
+    margin: 20px 0px 20px 0px ;
+    padding-left: 10px;
+    /* font-family: 'poppins'; */
+    font-size: 13px;
+    color: rgb(252, 252, 252);
+    cursor: pointer; 
+  }
+  #hm:hover{
+    color: rgb(46, 39, 39);
+  }
+  #hm{
+    text-decoration: none;
+    color: #fff;
+    display: inline-flex; 
+    width: 78%; 
+    height: 100%;
+    font-family: 'poppins';
+  }
+
+  #home{
+    text-decoration: none;
+    color: #fff;
+    display: inline-flex; 
+    width: 78%; 
+    height: 100%;
+    font-family: 'poppins';
+  }
+
+  #home:hover{
+    color: rgb(46, 39, 39);
+  }
+  
+  .nav_list:hover{
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+      border-radius: 5px;
+  }
+  .ico{
+    
+    margin: 0 15px 0 2px;
+  }
+  .ico:hover{
+    
+    color: rgb(8, 8, 8);
+  }

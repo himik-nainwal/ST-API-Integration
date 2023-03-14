@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "pinkfloyd",
+        "image": "./Photos/pinkfloyd.jpg"
+    },
+
+    {
+        "id": 2,
+        "name": "psychedelic",
+        "image":"./Photos/psychedelic.jpg"
+    },
+
+    {
+        "id": 3,
+        "name": "tentacion",
+        "image":"./Photos/tentacion.jpg"
+    },
+
+    {
+        "id": 4,
+        "name":"tupac",
+        "image":"./Photos/tupac.jpg"
+    },
+
+    {
+        "id": 5,
+        "name":"venom",
+        "image":"camsec/src/Components/EventOccurance/Photos/venom.jpg"
+    }
+]
+
